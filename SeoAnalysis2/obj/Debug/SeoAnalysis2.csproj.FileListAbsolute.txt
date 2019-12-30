@@ -87,6 +87,7 @@ C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\bin\Microsoft.AI.Dependency
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\bin\Microsoft.AI.Web.xml
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\obj\Debug\SeoAnalysis2.csprojAssemblyReference.cache
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\obj\Debug\SeoAnalysis2.csproj.CoreCompileInputs.cache
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\obj\Debug\SeoAnalysis2.csproj.CopyComplete
 C:\Users\Khoghulan\Desktop\SeoAnalysis2\SeoAnalysis2\obj\Debug\SeoAnalysis2.dll

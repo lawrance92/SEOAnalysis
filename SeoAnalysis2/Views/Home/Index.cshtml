@@ -1,6 +1,5 @@
 ﻿@using SeoAnalysis2.Models;
 @model SeoAnalysis2.Models.HomeModel
-@*@model SeoAnalysis2.Models.URLStopWordModel*@
 @{
     ViewBag.Title = "SEO Analysis";
 }
@@ -8,6 +7,7 @@
 <div class="row">
     <div class="col-md-4">
         <h2>SEO ANALYSIS</h2>
+        @*assign form to call the URL from text box to controller*@
         @using (Html.BeginForm("CheckURL", "Home", FormMethod.Post))
         {
             @Html.TextBoxFor(model => model.URL)
@@ -16,6 +16,7 @@
         }
         @try
         {
+            @*Check whther the website is in use and show the table of list*@
             if (Model.Exist == true)
             {
                 <p>Url Are Valid</p>
@@ -33,12 +34,13 @@
             }
             else
             {
+                @*Message to show the website is invalid*@
                 <p>Url Are Invalid Please try different Url</p>
             }
         }
         catch (Exception)
         {
-            
+            <p>Url Are Invalid Please try different Url</p>
         }
     </div>
 </div>
